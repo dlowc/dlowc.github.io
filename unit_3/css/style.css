@@ -1,0 +1,42 @@
+body {
+	background-color: #EEE8AA;
+	font-family:Helvetica;
+	font-size: 16px;
+}
+
+h1, p {
+	color: #000000;
+}
+h2 {
+	text-align: center;
+}
+
+div {
+	height: 30px;
+	text-align: right;
+}
+div span{
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+#slogan{
+	font-style: italic;
+}
+a:link {
+text-decoration: none;
+text-transform: uppercase;
+}
+a:hover {
+text-decoration: underline;
+}
+a:active {
+text-decoration: underline;
+}
+a:visited {
+text-decoration: none;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+}
