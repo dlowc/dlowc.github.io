@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	background-color: #FFFFFF;
+	font-family: Source Serif Pro, serif;
+	font-size: 16px;
+}
+h1 {
+	font-family: Lobster, sans-serif;
+	font-size: 60px;
+}
+
+p {
+	font-family: Source Serif Pro, serif;
+	color: #000000;
+}
+h2 {
+	text-align: center;
+}
+
+div {
+	height: 30px;
+	text-align: right;
+}
+div span{
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+#slogan{
+	font-style: italic;
+}
+a:link {
+text-decoration: none;
+text-transform: uppercase;
+}
+a:hover {
+text-decoration: underline;
+}
+a:active {
+text-decoration: underline;
+}
+a:visited {
+text-decoration: none;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+}
