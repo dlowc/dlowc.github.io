@@ -1,0 +1,66 @@
+<style>
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Concert+One);
+
+body {
+	background-color: #E89C6C;
+	font-family: Work Sans, sans-serif;
+	font-size: 16px;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: Work Sans, sans-serif;
+	font-size: 40px; 
+}
+h1 {
+	font-family: Concert One, serif;
+	font-size: 60px;
+}
+
+p {
+	font-family: Work Sans, sans-serif;
+	color: #000000;
+	background-color: #E8C66A;
+	width: auto;
+}
+h2 {
+	text-align: center;
+}
+
+nav {
+	background-color: #E8C66A;
+	height: 30px;
+	text-align: right;
+}
+nav span{
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #FFE2B8;
+}
+section {
+	background-color: #E8C66A;
+}
+a:link {
+text-decoration: none;
+text-transform: uppercase;
+}
+a:hover {
+text-decoration: underline;
+}
+a:active {
+text-decoration: underline;
+}
+a:visited {
+text-decoration: none;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	background-color: #E8C66A;
+}
+footer {
+	background-color: #FF957E;
+}
