@@ -1,110 +1,61 @@
-<style>
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: Work Sans, sans-serif;
 	font-size: 18px;
 	border: 2px solid #222;
+	color: #222;
 }
-
 header {
-	background-color: #fff;
-	border: 1px black solid;
-	padding: 20px;
-	font-family: Work Sans, sans-serif;
-	font-size: 20px;
-	text-align: center; 
+	border: 1px #222 solid;
+	padding: 1.25em;
+	text-align: center;
 }
-
 h1, h2 {
 	text-transform: uppercase;
-	border-bottom: 4px solid black;
+	border-bottom: 4px solid #222;
 	display: inline-block;
 	font-weight: 800;
 }
-
 h1 {
 	font-size: 2em;
 }
-
 h2 {
 	font-size: 1.5em;
-	padding: .8em 0;
-	color: #222;
-	border-bottom-color: #222;
+	padding: .75em 0;
 }
-
 img {
 	display: block;
-	margin: 0 auto;
-	width: 480px;
+	width:100%;
 }
-
 ul {
-	margin: 0;
-	padding: 0;
 	list-style: none;
 }
 
 li{
 	float: left;
 	width: 50%;
-	height: 6em;
-	outline: 3px solid #222;
+	border: 1px solid #222;
 	text-align: center;
-	line-height: 6em;
-	color: #000;
-	background: #fff;
+	padding:4em 0;
 }
 
 nav {
-	font-size: 30px;
+	/* font-size: 30px; */
 	text-align: center;
 }
 nav a{
 	text-decoration: none;
-	color: black;
-	margin: 1.8em;
+	color: #222;
+	padding:1.5em;
 	display: inline-block; 
 }
-
-section {
-	
-	color: #fff;
-	overflow: auto;
-}
-
-div {
-	font-size: 1.2em;
-	width: 46%
-	padding: 2%;
-	display: inline-block;
-}
-
-#hero {
-	display: block;
-	width: 100%;
-	margin: 0;
-	background: #fff;
-}
-
-#about {
+#about, #locations {
 	float: left;
-	background: #fff;
-	color: #222;
-	width: 30%;
+	width: 50%;
 	padding: 100px;
 }
-
-#locations {
-	float: right;
-	background: #fff;
-	color: #222;
-	width: 30%;
-	padding: 100px;
-}
-
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -114,17 +65,18 @@ div {
 #left {
 	background-color: violet;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2em;
 	float: left;
-	width: 30%;
+	width: 33.33%;
 }
 
 #right {
 	background-color: pink;
 	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
+	padding: 2em;
+	float: left;
+	width: 64.66%;
+	margin-left: 2%;
 }
 
 .clearfix:after {
@@ -136,22 +88,19 @@ div {
 	height: 0;
 }
 
-a:link {
-text-decoration: none;
-text-transform: uppercase;
+a {
+	text-decoration: none;
+	text-transform: uppercase;
 }
 a:hover {
-text-decoration: underline;
-}
-a:active {
-text-decoration: underline;
+	text-decoration: underline;
 }
 a:visited {
-text-decoration: none;
+	color:purple;
 }
 
 footer {
 	text-align: center;
 	padding: 1em 0;
-	clear; both;
+	clear: both;
 }
