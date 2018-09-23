@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Concert+One);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: Work Sans, sans-serif;
+	font-size: 18px;
+	border: 2px solid #222;
+	color: #222;
+}
+header {
+	border: 1px #222 solid;
+	padding: 1.25em;
+	text-align: center;
+}
+h1, h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid #222;
+	display: inline-block;
+	font-weight: 800;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	padding: .75em 0;
+}
+img {
+	display: block;
+	width:100%;
+}
+ul {
+	list-style: none;
+}
+
+li{
+	float: left;
+	width: 50%;
+	border: 1px solid #222;
+	text-align: center;
+	padding:4em 0;
+}
+
+nav {
+	/* font-size: 30px; */
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #222;
+	padding:1.5em;
+	display: inline-block; 
+}
+#about, #locations {
+	float: left;
+	width: 50%;
+	padding: 100px;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 2em;
+	float: left;
+	width: 33.33%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 2em;
+	float: left;
+	width: 64.66%;
+	margin-left: 2%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:  " ";
+	clear: both;
+	height: 0;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color:purple;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
