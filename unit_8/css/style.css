@@ -3,17 +3,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: Work Sans, sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	color: #222;
 }
 header {
-	border: 1px #222 solid;
+	/*border: 1px #222 solid;*/
 	padding: 1.25em;
 	text-align: center;
 }
 h1, h2 {
 	text-transform: uppercase;
-	border-bottom: 4px solid #222;
+	/*border-bottom: 4px solid #222;*/
 	display: inline-block;
 	font-weight: 800;
 }
@@ -24,21 +24,9 @@ h2 {
 	font-size: 1.5em;
 	padding: .75em 0;
 }
-img {
-	display: block;
-	width:100%;
+p {
+	font-size: .75em;
 }
-ul {
-	list-style: none;
-}
-
-li{
-	float: left;
-	width: 50%;
-	text-align: center;
-	padding:4em 0;
-}
-
 nav {
 	/* font-size: 30px; */
 	text-align: center;
@@ -49,12 +37,35 @@ nav a{
 	padding:1.5em;
 	display: inline-block; 
 }
+#hero img {
+	display: block;
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#header {
+	position: relative;
+}
 #about, #locations {
 	float: left;
 	width: 50%;
 	padding: 100px;
 }
-
+#locations p {
+	padding-bottom: 20px
+}
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 150px;
+	display: block;
+}
+.container {
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 40px;
+	clear: both;
+}
 .column {
 	float: left;
 	width: 25%;
@@ -92,3 +103,15 @@ footer {
 	padding: 1em 0;
 	clear: both;
 }
+
+@media only screen and (max-width: 1337px)
+{
+	#logo {
+		display: none;}
+	#about, #locations {
+		/*float: left;
+		width: 50%;*/
+		padding: 50px;
+}	
+}
+
